@@ -3,11 +3,11 @@ name: Build and Deploy Web App
 on: workflow_dispatch
 
 env:
- RESOURCE-GROUP: rg-eshoponweb-westeurope
+ RESOURCE-GROUP: rg-eshoponweb-eastus
  LOCATION: westeurope
  TEMPLATE-FILE: infra/webapp.bicep
  SUBSCRIPTION-ID: 4342a3a4-10be-4416-a3f4-1f78ca757d8e
- WEBAPP-NAME: devops-webapp-westeurope-245243453
+ WEBAPP-NAME: devops-webapp-eastus-1194821689
 
 
 jobs:
